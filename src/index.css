@@ -5,6 +5,6 @@ body {
 }
 
 @font-face {
-  font-family: 'YurukaStd';
-  src: local('YurukaStd'), url(./fonts/YurukaStd.woff2) format('woff2');
+  font-family: 'HYWenHei';
+  src: local('HYWenHei'), url(./fonts/HYWenHei.ttf) format('TrueType');
 }

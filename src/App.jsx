@@ -70,7 +70,7 @@ function App() {
     ctx.canvas.width = 296;
     ctx.canvas.height = 256;
 
-    if (loaded && document.fonts.check("12px YurukaStd")) {
+    if (loaded && document.fonts.check("12px HYWenHei")) {
       var hRatio = ctx.canvas.width / img.width;
       var vRatio = ctx.canvas.height / img.height;
       var ratio = Math.min(hRatio, vRatio);
@@ -88,7 +88,7 @@ function App() {
         img.width * ratio,
         img.height * ratio
       );
-      ctx.font = `${fontSize}px YurukaStd`;
+      ctx.font = `${fontSize}px HYWenHei`;
       ctx.lineWidth = 9;
       ctx.save();
 
